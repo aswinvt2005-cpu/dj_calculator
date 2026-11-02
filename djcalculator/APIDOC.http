@@ -1,0 +1,99 @@
+###
+POST  http://127.0.0.1:8000/addition/
+Content-Type: application/json
+
+{
+    "num1": 10,
+    "num2": 20
+}
+
+###
+POST http://127.0.0.1:8000/subtraction/
+Content-Type: application/json
+
+{
+    "num1": 20,
+    "num2": 50
+}
+
+###
+POST http://127.0.0.1:8000/multiplication/
+Content-Type: application/json
+
+{
+    "num1": 40,
+    "num2": 20
+}
+
+###
+POST http://127.0.0.1:8000/division/
+Content-Type: application/json
+
+{
+    "num1": 40,
+    "num2": 10
+}
+
+###
+POST http://127.0.0.1:8000/modulus/
+Content-Type: application/json
+
+{
+    "num1": 45,
+    "num2": 10
+}
+
+###
+POST http://127.0.0.1:8000/percentage/
+Content-Type: application/json
+
+{
+    "obtained_mark": 156,
+    "total_mark": 200
+}
+
+###
+POST http://127.0.0.1:8000/bmi/
+Content-Type: application/json
+
+{
+    "weight": 70,
+    "height": 175
+}
+
+###
+POST http://127.0.0.1:8000/triangle/
+Content-Type: application/json
+
+{
+    "base": 10,
+    "height": 20
+}
+
+###
+POST http://127.0.0.1:8000/age/
+Content-Type: application/json
+
+{
+    "current_year": 2023,
+    "birth_year": 1990
+}
+
+###
+POST http://127.0.0.1:8000/interest/
+Content-Type: application/json
+
+{
+    "principal": 1000,
+    "rate": 5,
+    "time": 2
+}
+
+###
+POST http://127.0.0.1:8000/bill/
+Content-Type: application/gzip
+
+{
+    "units": 150,
+    "rate": 5
+}
